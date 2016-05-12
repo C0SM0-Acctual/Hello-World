@@ -10,3 +10,73 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+public class NewMain {
+
+    static String randomString = "string to print";
+    
+    
+    static final double PINUM = 3.141529;
+    
+    public static void main(String[] args) {
+        // TODO code application logic here
+        System.out.println("hello world");
+        System.out.println(randomString);
+        System.out.println(PINUM);
+        
+        int integerOne = 22; 
+        
+        int integerTwo = integerOne + 1;
+        
+       System.out.println(integerTwo);
+       
+       byte bigByte = 127;
+       short bigShort = 3276;
+       int bigInt = 2100000000;
+       long bigLong = 9220000000000000000L;
+       float bigFloat = 3.14F;
+       double bigDouble = 3.144567778676687778767;
+       
+       System.out.println(Float.MAX_VALUE);
+       System.out.println(Double.MAX_VALUE);
+       
+       boolean trueOrFalse = true;
+       
+       char randomChar = 65;
+       char anotherChar = 'A';
+       char escapedChars = '\\';
+       
+       String  randomstring = "im a random string";
+       String anotherString = "Stuff";
+      
+       String andAnotherString = randomstring + ' ' + anotherString;
+       
+       String byteString = Byte.toString(bigByte);
+       String shortString = Short.toString(bigShort);
+       String longString = Long.toString(bigLong);
+       String floatString = Float.toString(bigFloat);
+       String doubleString = Double.toString(bigDouble);
+       String intString = Integer.toString(bigInt);
+       
+       
+       int aDoubleValue = 3;
+       int doubletoInt = (int) aDoubleValue;
+       
+       int stringToInt = Integer.parseInt(intString);
+       
+       
+       
+       System.out.println(stringToInt);
+       System.out.println(randomChar);
+       System.out.println(andAnotherString);
+       
+       
+       
+       
+               
+       
+       
+       
+                
+    }
+    
+}
